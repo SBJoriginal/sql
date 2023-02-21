@@ -13,8 +13,8 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="glo_2005_labs_2023" />
             <name qname="cours_4_quiz" />
+            <name qname="glo_2005_labs_2023" />
           </node>
         </introspection-scope>
       </schema-mapping>

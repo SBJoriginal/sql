@@ -1056,181 +1056,212 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="305" parent="289" name="artistes">
+    <routine id="305" parent="289" name="reqSpecialite">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>89</SourceTextLength>
+    </routine>
+    <routine id="306" parent="289" name="reqSpecialites">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>function</RoutineKind>
+      <SourceTextLength>196</SourceTextLength>
+    </routine>
+    <table id="307" parent="289" name="artistes">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="306" parent="289" name="createurs">
+    <table id="308" parent="289" name="createurs">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="307" parent="289" name="galeries">
+    <table id="309" parent="289" name="galeries">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="308" parent="289" name="oeuvres">
+    <table id="310" parent="289" name="oeuvres">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="309" parent="301" name="sigle">
+    <column id="311" parent="301" name="sigle">
       <DataType>char(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="310" parent="301" name="nom">
+    <column id="312" parent="301" name="nom">
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="311" parent="301" name="local">
+    <column id="313" parent="301" name="local">
       <DataType>char(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="312" parent="301" name="prof">
+    <column id="314" parent="301" name="prof">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <index id="313" parent="301" name="PRIMARY">
+    <index id="315" parent="301" name="PRIMARY">
       <ColNames>sigle</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="314" parent="301" name="PRIMARY">
+    <key id="316" parent="301" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="315" parent="302" name="idul">
+    <column id="317" parent="302" name="idul">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="316" parent="302" name="nom">
+    <column id="318" parent="302" name="nom">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="317" parent="302" name="age">
+    <column id="319" parent="302" name="age">
       <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="318" parent="302" name="programme">
+    <column id="320" parent="302" name="programme">
       <DataType>enum(&apos;GLO&apos;, &apos;IFT&apos;, &apos;GIF&apos;)|0e</DataType>
       <Position>4</Position>
     </column>
-    <index id="319" parent="302" name="PRIMARY">
+    <index id="321" parent="302" name="PRIMARY">
       <ColNames>idul</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="320" parent="302" name="PRIMARY">
+    <key id="322" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="321" parent="303" name="id">
+    <column id="323" parent="303" name="id">
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="322" parent="303" name="nom">
+    <column id="324" parent="303" name="nom">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="323" parent="303" name="département">
+    <column id="325" parent="303" name="département">
       <DataType>enum(&apos;IFT&apos;, &apos;GLO&apos;, &apos;GIF&apos;)|0e</DataType>
       <Position>3</Position>
     </column>
-    <index id="324" parent="303" name="PRIMARY">
+    <index id="326" parent="303" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="325" parent="303" name="PRIMARY">
+    <key id="327" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="326" parent="304" name="idul">
+    <column id="328" parent="304" name="idul">
       <DataType>varchar(10)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="327" parent="304" name="sigle">
+    <column id="329" parent="304" name="sigle">
       <DataType>char(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="328" parent="305" name="surnom">
+    <argument id="330" parent="305" name="surnom">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="331" parent="305" name="specialite">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>enum(&apos;Peinture&apos;, &apos;Sculpture&apos;, &apos;Collage&apos;)|0e</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="332" parent="306">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>enum(&apos;Peinture&apos;, &apos;Sculpture&apos;, &apos;Collage&apos;)|0e</DataType>
+    </argument>
+    <argument id="333" parent="306" name="surnom">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <column id="334" parent="307" name="surnom">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="329" parent="305" name="nom">
+    <column id="335" parent="307" name="nom">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="330" parent="305" name="age">
+    <column id="336" parent="307" name="age">
       <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="331" parent="305" name="specialite">
+    <column id="337" parent="307" name="specialite">
       <DataType>enum(&apos;Peinture&apos;, &apos;Sculpture&apos;, &apos;Collage&apos;)|0e</DataType>
       <Position>4</Position>
     </column>
-    <index id="332" parent="305" name="PRIMARY">
+    <index id="338" parent="307" name="PRIMARY">
       <ColNames>surnom</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="333" parent="305" name="PRIMARY">
+    <key id="339" parent="307" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="334" parent="306" name="id">
+    <column id="340" parent="308" name="id">
       <DataType>int|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="335" parent="306" name="surnom">
+    <column id="341" parent="308" name="surnom">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="336" parent="307" name="id">
+    <column id="342" parent="309" name="id">
       <DataType>int|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="337" parent="307" name="adresse">
+    <column id="343" parent="309" name="adresse">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="338" parent="307" name="ville">
+    <column id="344" parent="309" name="ville">
       <DataType>varchar(100)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="339" parent="307" name="capacite">
+    <column id="345" parent="309" name="capacite">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="340" parent="307" name="gala">
+    <column id="346" parent="309" name="gala">
       <DataType>enum(&apos;oui&apos;, &apos;non&apos;)|0e</DataType>
       <Position>5</Position>
     </column>
-    <column id="341" parent="308" name="id">
+    <column id="347" parent="310" name="id">
       <DataType>int|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="342" parent="308" name="titre">
+    <column id="348" parent="310" name="titre">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="343" parent="308" name="annee">
+    <column id="349" parent="310" name="annee">
       <DataType>year|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="344" parent="308" name="galerie">
+    <column id="350" parent="310" name="galerie">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="345" parent="308" name="prix">
+    <column id="351" parent="310" name="prix">
       <DataType>int|0s</DataType>
       <Position>5</Position>
+    </column>
+    <column id="352" parent="310" name="type">
+      <DataType>char(10)|0s</DataType>
+      <Position>6</Position>
     </column>
   </database-model>
 </dataSource>
