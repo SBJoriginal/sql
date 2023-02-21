@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/All Databases/Labo4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/MAIN.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/Quiz4.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console_2.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +29,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lsbjo/OneDrive/Documents/GitHub/sql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\db" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\DATABASE CONSOLES" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sql" />
@@ -78,7 +93,7 @@
       <workItem from="1674934763873" duration="55000" />
       <workItem from="1675731492339" duration="611000" />
       <workItem from="1676082716078" duration="6973000" />
-      <workItem from="1676949854116" duration="4886000" />
+      <workItem from="1676949854116" duration="6291000" />
     </task>
     <servers />
   </component>
