@@ -198,9 +198,7 @@ CREATE TABLE FournisseursVehicules
     PRIMARY KEY (idFournisseursVehicules)
 );
 
-show tables;
 
-SELECT * FROM Reparation;
 
 
 
