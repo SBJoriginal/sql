@@ -14,7 +14,9 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="cours_4_quiz" />
-            <name qname="glo_2005_labs_2023" />
+            <name qname="tp" />
+            <name qname="glo_2005_webapp_2023" />
+            <name qname="glo_2005_projet_concessionnairenouvelleauto" />
           </node>
         </introspection-scope>
       </schema-mapping>

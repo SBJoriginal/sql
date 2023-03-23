@@ -4,59 +4,140 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/All Databases/Labo4.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/MAIN.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/Quiz4.sql" afterDir="false" />
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="Gros probleme de merge que je repare">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/536986288_glo2005projetsession" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/static/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/templates/Labo 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/MAIN CONSOLE FOR TESTING.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e/storage_v2/_src_/schema/glo_2005_labs_2023.Ud21-Q.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console_2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/Labo4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/Labo4/Labo4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/Quiz4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/Quiz4/Quiz4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/536986288_glo2005projetsession" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/TP_Tableau_Et_Test/TestDeFetch.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/TP_Tableau_Et_Test/TestDeInsert.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/All Databases/TP" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ky5yTUZieGK6LdmJWpG7l8anRl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lsbjo/OneDrive/Documents/GitHub/sql",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lsbjo/OneDrive/Documents/GitHub/sql/All Databases/Labo4.sql&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;e78b8c9d-2d34-49eb-9946-b3510e46d50e&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\db" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\DATABASE CONSOLES" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\TP_Tableau_Et_Test" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Quiz4" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo4" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo6\html labo 6\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.console_1.sql">
+    <configuration name="Labo4.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/e78b8c9d-2d34-49eb-9946-b3510e46d50e/Labo4.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="Labo4.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/All Databases/Labo4.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="DatabaseScript" nameIsGenerated="true">
+      <data-source id="e78b8c9d-2d34-49eb-9946-b3510e46d50e" />
+      <method v="2" />
+    </configuration>
+    <configuration name="console_1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/All Databases/TP/console_1.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="e78b8c9d-2d34-49eb-9946-b3510e46d50e" />
+      <method v="2" />
+    </configuration>
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/All Databases/Labo6/html labo 6/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sql" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +160,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/All Databases/Labo6/html labo 6/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Database Script.Unnamed" />
+      <item itemvalue="Database Script.console_1.sql" />
+      <item itemvalue="Database Script.Labo4.sql (1)" />
+      <item itemvalue="Database Script.Labo4.sql" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.database" />
+      <item itemvalue="Python.server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.console_1.sql" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.database" />
+        <item itemvalue="Database Script.Labo4.sql (1)" />
+        <item itemvalue="Database Script.Labo4.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,8 +214,43 @@
       <workItem from="1674934763873" duration="55000" />
       <workItem from="1675731492339" duration="611000" />
       <workItem from="1676082716078" duration="6973000" />
-      <workItem from="1676949854116" duration="6291000" />
+      <workItem from="1676949854116" duration="6331000" />
+      <workItem from="1679354980979" duration="331000" />
+      <workItem from="1679355802073" duration="10512000" />
+      <workItem from="1679449924656" duration="12264000" />
+      <workItem from="1679507101840" duration="3648000" />
+      <workItem from="1679510781962" duration="3524000" />
+      <workItem from="1679532152747" duration="621000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
+      <created>1679453848306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679453848307</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout des foreigns key et une petite reorganisation du code">
+      <created>1679453896020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679453896020</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" Rajouter une auto_incrementation pour plusieurs ID. J'ai aussi rajouter une console pour des test de insert et un autre pour des tests de select">
+      <created>1679510929436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679510929436</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Gros probleme de merge que je repare">
+      <created>1679516255049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679516255049</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,13 +261,44 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout des foreigns key et une petite reorganisation du code" />
+    <MESSAGE value=" Rajouter une auto_incrementation pour plusieurs ID. J'ai aussi rajouter une console pour des test de insert et un autre pour des tests de select" />
+    <MESSAGE value="Gros probleme de merge que je repare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gros probleme de merge que je repare" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="OracleBreakpointType">
+          <url>file://$PROJECT_DIR$/All Databases/Labo4/Labo4.sql</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1676086877974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679364508102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
+    <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
   </component>
 </project>

@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/536986288_glo2005projetsession" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/All Databases/TP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/All Databases/TP/536986288_glo2005projetsession" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/All Databases/TP/TP_Tableau_Et_Test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/All Databases/TP/tp" vcs="Git" />
   </component>
 </project>

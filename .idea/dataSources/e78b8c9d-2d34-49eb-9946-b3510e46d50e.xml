@@ -997,271 +997,837 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Current>1</Current>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="289" parent="1" name="glo_2005_labs_2023">
+    <schema id="289" parent="1" name="glo_2005_projet_concessionnairenouvelleauto">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="290" parent="1" name="information_schema">
+    <schema id="290" parent="1" name="glo_2005_webapp_2023">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="291" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="291" parent="1" name="mysql">
+    <schema id="292" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="292" parent="1" name="performance_schema">
+    <schema id="293" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="293" parent="1" name="sakila">
+    <schema id="294" parent="1" name="sakila">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="sys">
+    <schema id="295" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="295" parent="1" name="test">
+    <schema id="296" parent="1" name="test">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="296" parent="1" name="world">
+    <schema id="297" parent="1" name="tp">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="297" parent="1" name="mysql.infoschema">
+    <schema id="298" parent="1" name="world">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="299" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="298" parent="1" name="mysql.session">
+    <user id="300" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="299" parent="1" name="mysql.sys">
+    <user id="301" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="300" parent="1" name="root">
+    <user id="302" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="301" parent="288" name="cours">
+    <table id="303" parent="288" name="cours">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="302" parent="288" name="etudiants">
+    <table id="304" parent="288" name="etudiants">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="303" parent="288" name="profs">
+    <table id="305" parent="288" name="profs">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="304" parent="288" name="suivre">
+    <table id="306" parent="288" name="suivre">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <routine id="305" parent="289" name="reqSpecialite">
-      <Definer>root@localhost</Definer>
-      <RoutineKind>procedure</RoutineKind>
-      <SourceTextLength>89</SourceTextLength>
-    </routine>
-    <routine id="306" parent="289" name="reqSpecialites">
-      <Definer>root@localhost</Definer>
-      <RoutineKind>function</RoutineKind>
-      <SourceTextLength>196</SourceTextLength>
-    </routine>
-    <table id="307" parent="289" name="artistes">
+    <table id="307" parent="289" name="automobile">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="308" parent="289" name="createurs">
+    <table id="308" parent="289" name="client">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="309" parent="289" name="galeries">
+    <table id="309" parent="289" name="concessionnaire">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="310" parent="289" name="oeuvres">
+    <table id="310" parent="289" name="employe">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="311" parent="301" name="sigle">
+    <table id="311" parent="289" name="fournisseurspieces">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="312" parent="289" name="fournisseursvehicules">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="313" parent="289" name="lavageauto">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="314" parent="289" name="location">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="315" parent="289" name="pieces">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="316" parent="289" name="reparation">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="317" parent="289" name="vente">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="318" parent="290" name="todo">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="319" parent="303" name="sigle">
       <DataType>char(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="312" parent="301" name="nom">
+    <column id="320" parent="303" name="nom">
       <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="313" parent="301" name="local">
+    <column id="321" parent="303" name="local">
       <DataType>char(20)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="314" parent="301" name="prof">
+    <column id="322" parent="303" name="prof">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <index id="315" parent="301" name="PRIMARY">
+    <index id="323" parent="303" name="PRIMARY">
       <ColNames>sigle</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="316" parent="301" name="PRIMARY">
+    <key id="324" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="317" parent="302" name="idul">
+    <column id="325" parent="304" name="idul">
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="318" parent="302" name="nom">
+    <column id="326" parent="304" name="nom">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="319" parent="302" name="age">
+    <column id="327" parent="304" name="age">
       <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="320" parent="302" name="programme">
+    <column id="328" parent="304" name="programme">
       <DataType>enum(&apos;GLO&apos;, &apos;IFT&apos;, &apos;GIF&apos;)|0e</DataType>
       <Position>4</Position>
     </column>
-    <index id="321" parent="302" name="PRIMARY">
+    <index id="329" parent="304" name="PRIMARY">
       <ColNames>idul</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="322" parent="302" name="PRIMARY">
+    <key id="330" parent="304" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="323" parent="303" name="id">
+    <column id="331" parent="305" name="id">
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="324" parent="303" name="nom">
+    <column id="332" parent="305" name="nom">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="325" parent="303" name="département">
+    <column id="333" parent="305" name="département">
       <DataType>enum(&apos;IFT&apos;, &apos;GLO&apos;, &apos;GIF&apos;)|0e</DataType>
       <Position>3</Position>
     </column>
-    <index id="326" parent="303" name="PRIMARY">
+    <index id="334" parent="305" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="327" parent="303" name="PRIMARY">
+    <key id="335" parent="305" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="328" parent="304" name="idul">
+    <column id="336" parent="306" name="idul">
       <DataType>varchar(10)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="329" parent="304" name="sigle">
+    <column id="337" parent="306" name="sigle">
       <DataType>char(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <argument id="330" parent="305" name="surnom">
-      <DataType>varchar(100)|0s</DataType>
-      <Position>1</Position>
-    </argument>
-    <argument id="331" parent="305" name="specialite">
-      <ArgumentDirection>O</ArgumentDirection>
-      <DataType>enum(&apos;Peinture&apos;, &apos;Sculpture&apos;, &apos;Collage&apos;)|0e</DataType>
-      <Position>2</Position>
-    </argument>
-    <argument id="332" parent="306">
-      <ArgumentDirection>R</ArgumentDirection>
-      <DataType>enum(&apos;Peinture&apos;, &apos;Sculpture&apos;, &apos;Collage&apos;)|0e</DataType>
-    </argument>
-    <argument id="333" parent="306" name="surnom">
-      <DataType>varchar(100)|0s</DataType>
-      <Position>1</Position>
-    </argument>
-    <column id="334" parent="307" name="surnom">
-      <DataType>varchar(100)|0s</DataType>
+    <column id="338" parent="307" name="niv">
+      <DataType>varchar(17)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="335" parent="307" name="nom">
-      <DataType>varchar(100)|0s</DataType>
+    <column id="339" parent="307" name="marque">
+      <DataType>varchar(50)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="336" parent="307" name="age">
-      <DataType>int|0s</DataType>
+    <column id="340" parent="307" name="modele">
+      <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="337" parent="307" name="specialite">
-      <DataType>enum(&apos;Peinture&apos;, &apos;Sculpture&apos;, &apos;Collage&apos;)|0e</DataType>
+    <column id="341" parent="307" name="annee">
+      <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <index id="338" parent="307" name="PRIMARY">
-      <ColNames>surnom</ColNames>
+    <column id="342" parent="307" name="couleur">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="343" parent="307" name="odometre">
+      <DataType>int|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="344" parent="307" name="nbPlaces">
+      <DataType>int|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="345" parent="307" name="prixAuto">
+      <DataType>double|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="346" parent="307" name="locationVente">
+      <DataType>varchar(8)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="347" parent="307" name="sousCategorie">
+      <DataType>varchar(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="348" parent="307" name="poidsAuto">
+      <DataType>int|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <index id="349" parent="307" name="PRIMARY">
+      <ColNames>niv</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="339" parent="307" name="PRIMARY">
+    <key id="350" parent="307" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="340" parent="308" name="id">
+    <column id="351" parent="308" name="idClient">
+      <AutoIncrement>20000</AutoIncrement>
       <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="341" parent="308" name="surnom">
+    <column id="352" parent="308" name="prenomClient">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="342" parent="309" name="id">
-      <DataType>int|0s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="343" parent="309" name="adresse">
-      <DataType>varchar(100)|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="344" parent="309" name="ville">
+    <column id="353" parent="308" name="nomClient">
       <DataType>varchar(100)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="345" parent="309" name="capacite">
-      <DataType>int|0s</DataType>
+    <column id="354" parent="308" name="numTelephoneClient">
+      <DataType>varchar(15)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="346" parent="309" name="gala">
-      <DataType>enum(&apos;oui&apos;, &apos;non&apos;)|0e</DataType>
+    <column id="355" parent="308" name="adresseClient">
+      <DataType>varchar(200)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="347" parent="310" name="id">
-      <DataType>int|0s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="348" parent="310" name="titre">
-      <DataType>varchar(100)|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="349" parent="310" name="annee">
-      <DataType>year|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="350" parent="310" name="galerie">
-      <DataType>int|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="351" parent="310" name="prix">
-      <DataType>int|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="352" parent="310" name="type">
-      <DataType>char(10)|0s</DataType>
+    <column id="356" parent="308" name="codePostaleClient">
+      <DataType>varchar(7)|0s</DataType>
       <Position>6</Position>
     </column>
+    <column id="357" parent="308" name="genreClient">
+      <DataType>varchar(1)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <index id="358" parent="308" name="PRIMARY">
+      <ColNames>idClient</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="359" parent="308" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="360" parent="309" name="idConcessionnaire">
+      <AutoIncrement>100</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="361" parent="309" name="nomConcessionnaire">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="362" parent="309" name="adresseConcessionnaire">
+      <DataType>varchar(200)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="363" parent="309" name="numTelephoneConcessionnaire">
+      <DataType>varchar(15)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="364" parent="309" name="adresseCourrielConcessionnaire">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="365" parent="309" name="siteWeb">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <index id="366" parent="309" name="PRIMARY">
+      <ColNames>idConcessionnaire</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="367" parent="309" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="368" parent="310" name="idEmploye">
+      <AutoIncrement>10000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="369" parent="310" name="prenomEmploye">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="370" parent="310" name="nomEmploye">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="371" parent="310" name="ageEmploye">
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="372" parent="310" name="numCellEmploye">
+      <DataType>varchar(15)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="373" parent="310" name="numPoste">
+      <DataType>int|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="374" parent="310" name="titreEmploi">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="375" parent="310" name="salaireAnnuel">
+      <DataType>int|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="376" parent="310" name="anciennete">
+      <DataType>int|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <index id="377" parent="310" name="PRIMARY">
+      <ColNames>idEmploye</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="378" parent="310" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="379" parent="311" name="idFournisseursPieces">
+      <AutoIncrement>70000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="380" parent="311" name="nomFournisseursPieces">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="381" parent="311" name="adresseFournisseursPieces">
+      <DataType>varchar(200)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="382" parent="311" name="numTelephoneFournisseursPieces">
+      <DataType>varchar(15)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="383" parent="311" name="adresseCourrielFournisseursPieces">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="384" parent="311" name="villeFournisseursPieces">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="385" parent="311" name="provinceEtatFournisseursPieces">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="386" parent="311" name="paysFournisseursPieces">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <index id="387" parent="311" name="PRIMARY">
+      <ColNames>idFournisseursPieces</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="388" parent="311" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="389" parent="312" name="idFournisseursVehicules">
+      <AutoIncrement>80000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="390" parent="312" name="nomFournisseursVehicules">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="391" parent="312" name="adresseFournisseursVehicules">
+      <DataType>varchar(200)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="392" parent="312" name="numTelephoneFournisseursVehicules">
+      <DataType>varchar(15)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="393" parent="312" name="adresseCourrielFournisseursVehicules">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="394" parent="312" name="villeFournisseursVehicules">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="395" parent="312" name="provinceEtatFournisseursVehicules">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="396" parent="312" name="paysFournisseursVehicules">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <index id="397" parent="312" name="PRIMARY">
+      <ColNames>idFournisseursVehicules</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="398" parent="312" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="399" parent="313" name="idLavage">
+      <AutoIncrement>30000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="400" parent="313" name="typeLavage">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="401" parent="313" name="prixLavage">
+      <DataType>double|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="402" parent="313" name="niv">
+      <DataType>varchar(17)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="403" parent="313" name="idClient">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="404" parent="313" name="idEmploye">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="405" parent="313" name="lavageauto_ibfk_3">
+      <ColNames>niv</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>niv</RefColNames>
+      <RefTableName>automobile</RefTableName>
+    </foreign-key>
+    <foreign-key id="406" parent="313" name="lavageauto_ibfk_1">
+      <ColNames>idClient</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idClient</RefColNames>
+      <RefTableName>client</RefTableName>
+    </foreign-key>
+    <foreign-key id="407" parent="313" name="lavageauto_ibfk_2">
+      <ColNames>idEmploye</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idEmploye</RefColNames>
+      <RefTableName>employe</RefTableName>
+    </foreign-key>
+    <index id="408" parent="313" name="PRIMARY">
+      <ColNames>idLavage
+idClient
+idEmploye
+niv</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="409" parent="313" name="niv">
+      <ColNames>niv</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="410" parent="313" name="idClient">
+      <ColNames>idClient</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="411" parent="313" name="idEmploye">
+      <ColNames>idEmploye</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="412" parent="313" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="413" parent="314" name="idLocation">
+      <AutoIncrement>60000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="414" parent="314" name="niv">
+      <DataType>varchar(17)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="415" parent="314" name="idClient">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="416" parent="314" name="idEmploye">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="417" parent="314" name="dureeLocation">
+      <DataType>int|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="418" parent="314" name="tauxInteret">
+      <DataType>double|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="419" parent="314" name="location_ibfk_1">
+      <ColNames>niv</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>niv</RefColNames>
+      <RefTableName>automobile</RefTableName>
+    </foreign-key>
+    <foreign-key id="420" parent="314" name="location_ibfk_2">
+      <ColNames>idClient</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idClient</RefColNames>
+      <RefTableName>client</RefTableName>
+    </foreign-key>
+    <foreign-key id="421" parent="314" name="location_ibfk_3">
+      <ColNames>idEmploye</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idEmploye</RefColNames>
+      <RefTableName>employe</RefTableName>
+    </foreign-key>
+    <index id="422" parent="314" name="PRIMARY">
+      <ColNames>idLocation
+niv
+idClient
+idEmploye</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="423" parent="314" name="niv">
+      <ColNames>niv</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="424" parent="314" name="idClient">
+      <ColNames>idClient</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="425" parent="314" name="idEmploye">
+      <ColNames>idEmploye</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="426" parent="314" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="427" parent="315" name="idPiece">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="428" parent="315" name="nomPiece">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="429" parent="315" name="categorie">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="430" parent="315" name="poidsPiece">
+      <DataType>double|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="431" parent="315" name="descriptionPiece">
+      <DataType>varchar(200)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="432" parent="315" name="prixPiece">
+      <DataType>double|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <index id="433" parent="315" name="PRIMARY">
+      <ColNames>idPiece</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="434" parent="315" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="435" parent="316" name="idReparation">
+      <AutoIncrement>50000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="436" parent="316" name="idClient">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="437" parent="316" name="niv">
+      <DataType>varchar(17)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="438" parent="316" name="idEmploye">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="439" parent="316" name="typeReparation">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="440" parent="316" name="descriptionRep">
+      <DataType>varchar(400)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="441" parent="316" name="idPiece">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="442" parent="316" name="tempsDeTravail">
+      <DataType>int|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="443" parent="316" name="coutReparation">
+      <DataType>double|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="444" parent="316" name="reparation_ibfk_1">
+      <ColNames>idClient</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idClient</RefColNames>
+      <RefTableName>client</RefTableName>
+    </foreign-key>
+    <foreign-key id="445" parent="316" name="reparation_ibfk_2">
+      <ColNames>niv</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>niv</RefColNames>
+      <RefTableName>automobile</RefTableName>
+    </foreign-key>
+    <foreign-key id="446" parent="316" name="reparation_ibfk_3">
+      <ColNames>idEmploye</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idEmploye</RefColNames>
+      <RefTableName>employe</RefTableName>
+    </foreign-key>
+    <foreign-key id="447" parent="316" name="reparation_ibfk_4">
+      <ColNames>idPiece</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idPiece</RefColNames>
+      <RefTableName>pieces</RefTableName>
+    </foreign-key>
+    <index id="448" parent="316" name="PRIMARY">
+      <ColNames>idReparation
+idClient
+niv
+idEmploye
+idPiece</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="449" parent="316" name="idClient">
+      <ColNames>idClient</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="450" parent="316" name="niv">
+      <ColNames>niv</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="451" parent="316" name="idEmploye">
+      <ColNames>idEmploye</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="452" parent="316" name="idPiece">
+      <ColNames>idPiece</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="453" parent="316" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="454" parent="317" name="idVente">
+      <AutoIncrement>40000</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="455" parent="317" name="niv">
+      <DataType>varchar(17)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="456" parent="317" name="idClient">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="457" parent="317" name="idEmploye">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="458" parent="317" name="dureeFinancement">
+      <DataType>int|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="459" parent="317" name="tauxInteret">
+      <DataType>double|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="460" parent="317" name="vente_ibfk_1">
+      <ColNames>niv</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>niv</RefColNames>
+      <RefTableName>automobile</RefTableName>
+    </foreign-key>
+    <foreign-key id="461" parent="317" name="vente_ibfk_2">
+      <ColNames>idClient</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idClient</RefColNames>
+      <RefTableName>client</RefTableName>
+    </foreign-key>
+    <foreign-key id="462" parent="317" name="vente_ibfk_3">
+      <ColNames>idEmploye</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idEmploye</RefColNames>
+      <RefTableName>employe</RefTableName>
+    </foreign-key>
+    <index id="463" parent="317" name="PRIMARY">
+      <ColNames>idVente
+niv
+idClient
+idEmploye</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="464" parent="317" name="niv">
+      <ColNames>niv</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="465" parent="317" name="idClient">
+      <ColNames>idClient</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="466" parent="317" name="idEmploye">
+      <ColNames>idEmploye</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="467" parent="317" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="468" parent="318" name="id">
+      <AutoIncrement>2</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="469" parent="318" name="text">
+      <DataType>varchar(400)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <index id="470" parent="318" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="471" parent="318" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
