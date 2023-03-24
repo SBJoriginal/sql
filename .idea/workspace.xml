@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="la liste de tuples piece">
-      <change afterPath="$PROJECT_DIR$/All Databases/TP/tuples_fournisseursPieces" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/TP/tuples_fournisseursVehicule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="rajouter les tuples de fournisseur tuples et fournisseur vehicle.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/536986288_glo2005projetsession" beforeDir="false" afterPath="$PROJECT_DIR$/536986288_glo2005projetsession" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/MAIN.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +224,8 @@
       <workItem from="1679510781962" duration="3524000" />
       <workItem from="1679532152747" duration="9497000" />
       <workItem from="1679592116908" duration="10320000" />
-      <workItem from="1679639734897" duration="4542000" />
+      <workItem from="1679639734897" duration="4834000" />
+      <workItem from="1679679476166" duration="580000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -286,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679605219791</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rajouter les tuples de fournisseur tuples et fournisseur vehicle.">
+      <created>1679644594123</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679644594123</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +326,8 @@
     <MESSAGE value="test3" />
     <MESSAGE value="added enums in some tables" />
     <MESSAGE value="la liste de tuples piece" />
-    <option name="LAST_COMMIT_MESSAGE" value="la liste de tuples piece" />
+    <MESSAGE value="rajouter les tuples de fournisseur tuples et fournisseur vehicle." />
+    <option name="LAST_COMMIT_MESSAGE" value="rajouter les tuples de fournisseur tuples et fournisseur vehicle." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,6 +344,6 @@
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
-    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679641517142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679679580745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
