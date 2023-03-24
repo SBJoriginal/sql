@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="rajouter les tuples de fournisseur tuples et fournisseur vehicle.">
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="ranger les fichier tuples dans un dossier pour etre plus propre">
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniAutomobiles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursPieces" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursPieces.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursVehicule" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursVehicule.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +76,11 @@
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\Les tuples" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo6" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\TP_Tableau_Et_Test" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Quiz4" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo4" />
     </key>
   </component>
   <component name="RunManager" selected="Python.csv_import">
@@ -225,7 +228,7 @@
       <workItem from="1679532152747" duration="9497000" />
       <workItem from="1679592116908" duration="10320000" />
       <workItem from="1679639734897" duration="4834000" />
-      <workItem from="1679679476166" duration="580000" />
+      <workItem from="1679679476166" duration="3529000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -290,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679644594123</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="rajouter les tableau fourniPieces et fourniAutomobiles">
+      <created>1679680088055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679680088055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ranger les fichier tuples dans un dossier pour etre plus propre">
+      <created>1679680302672</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679680302672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +344,9 @@
     <MESSAGE value="added enums in some tables" />
     <MESSAGE value="la liste de tuples piece" />
     <MESSAGE value="rajouter les tuples de fournisseur tuples et fournisseur vehicle." />
-    <option name="LAST_COMMIT_MESSAGE" value="rajouter les tuples de fournisseur tuples et fournisseur vehicle." />
+    <MESSAGE value="rajouter les tableau fourniPieces et fourniAutomobiles" />
+    <MESSAGE value="ranger les fichier tuples dans un dossier pour etre plus propre" />
+    <option name="LAST_COMMIT_MESSAGE" value="ranger les fichier tuples dans un dossier pour etre plus propre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,6 +363,6 @@
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
-    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679679580745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679682977729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
