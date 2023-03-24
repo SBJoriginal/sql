@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="Gros probleme de merge que je repare">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/536986288_glo2005projetsession" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/static/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/Labo6/html labo 6/templates/Labo 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All Databases/MAIN CONSOLE FOR TESTING.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="la liste de tuples piece">
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/tuples_fournisseursPieces" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/tuples_fournisseursVehicule" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e/storage_v2/_src_/schema/glo_2005_labs_2023.Ud21-Q.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/Labo4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/Labo4/Labo4.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/Quiz4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/Quiz4/Quiz4.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/536986288_glo2005projetsession" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/TP_Tableau_Et_Test/TestDeFetch.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/TP_Tableau_Et_Test/TestDeInsert.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/536986288_glo2005projetsession" beforeDir="false" afterPath="$PROJECT_DIR$/536986288_glo2005projetsession" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/MAIN.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +40,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ky5yTUZieGK6LdmJWpG7l8anRl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,21 +77,16 @@
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo6" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\TP_Tableau_Et_Test" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Quiz4" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo4" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo6\html labo 6\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.console_1.sql">
+  <component name="RunManager" selected="Python.csv_import">
     <configuration name="Labo4.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/e78b8c9d-2d34-49eb-9946-b3510e46d50e/Labo4.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <configuration name="Labo4.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/All Databases/Labo4.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -114,6 +98,28 @@
       <script-file value="$PROJECT_DIR$/All Databases/TP/console_1.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="e78b8c9d-2d34-49eb-9946-b3510e46d50e" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csv_import" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/All Databases/TP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/All Databases/TP/csv_import.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -186,18 +192,18 @@
       <item itemvalue="Database Script.Unnamed" />
       <item itemvalue="Database Script.console_1.sql" />
       <item itemvalue="Database Script.Labo4.sql (1)" />
-      <item itemvalue="Database Script.Labo4.sql" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.csv_import" />
       <item itemvalue="Python.database" />
       <item itemvalue="Python.server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.console_1.sql" />
+        <item itemvalue="Python.csv_import" />
         <item itemvalue="Python.server" />
+        <item itemvalue="Database Script.console_1.sql" />
         <item itemvalue="Python.database" />
         <item itemvalue="Database Script.Labo4.sql (1)" />
-        <item itemvalue="Database Script.Labo4.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +226,9 @@
       <workItem from="1679449924656" duration="12264000" />
       <workItem from="1679507101840" duration="3648000" />
       <workItem from="1679510781962" duration="3524000" />
-      <workItem from="1679532152747" duration="621000" />
+      <workItem from="1679532152747" duration="9497000" />
+      <workItem from="1679592116908" duration="10320000" />
+      <workItem from="1679639734897" duration="4542000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -250,7 +258,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679516255049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test3">
+      <created>1679533269496</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679533269496</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added enums in some tables">
+      <created>1679543690089</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679543690089</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added enums in some tables">
+      <created>1679543805178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679543805178</updated>
+    </task>
+    <task id="LOCAL-00008" summary="la liste de tuples piece">
+      <created>1679605219791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679605219791</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +319,10 @@
     <MESSAGE value="Ajout des foreigns key et une petite reorganisation du code" />
     <MESSAGE value=" Rajouter une auto_incrementation pour plusieurs ID. J'ai aussi rajouter une console pour des test de insert et un autre pour des tests de select" />
     <MESSAGE value="Gros probleme de merge que je repare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gros probleme de merge que je repare" />
+    <MESSAGE value="test3" />
+    <MESSAGE value="added enums in some tables" />
+    <MESSAGE value="la liste de tuples piece" />
+    <option name="LAST_COMMIT_MESSAGE" value="la liste de tuples piece" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -298,7 +337,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679364508102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
+    <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679641517142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
