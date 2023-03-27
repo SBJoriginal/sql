@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="creation des dernier fichier tuples">
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="entrer les tuples dans le fichier">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/temporary" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/temporary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_location" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_location" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_reparation" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_reparation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
     </list>
@@ -240,7 +243,7 @@
       <workItem from="1679679476166" duration="7902000" />
       <workItem from="1679780805878" duration="3029000" />
       <workItem from="1679880357317" duration="3136000" />
-      <workItem from="1679942938730" duration="8073000" />
+      <workItem from="1679942938730" duration="10476000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -424,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679952570475</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="entrer les tuples dans le fichier">
+      <created>1679952663368</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679952663368</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +484,8 @@
     <MESSAGE value="rajout du import_LavageAuto_from_csv()" />
     <MESSAGE value="changer la composition des fichier tuples" />
     <MESSAGE value="creation des dernier fichier tuples" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation des dernier fichier tuples" />
+    <MESSAGE value="entrer les tuples dans le fichier" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrer les tuples dans le fichier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
