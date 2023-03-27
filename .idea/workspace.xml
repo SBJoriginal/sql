@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon">
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="reparer les primary keys des tableaux">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/536986288_glo2005projetsession" beforeDir="false" afterPath="$PROJECT_DIR$/536986288_glo2005projetsession" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniAutomobiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniAutomobiles.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
@@ -243,7 +242,7 @@
       <workItem from="1679679476166" duration="7902000" />
       <workItem from="1679780805878" duration="3029000" />
       <workItem from="1679880357317" duration="3136000" />
-      <workItem from="1679942938730" duration="2472000" />
+      <workItem from="1679942938730" duration="4171000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -357,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679783237895</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fait le code csv pour fourniPiece&#10;&#10;edit les tableaux, ar il avait des erreurs de primary key">
+      <created>1679945456641</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679945456641</updated>
+    </task>
+    <task id="LOCAL-00018" summary="reparer les primary keys des tableaux">
+      <created>1679945566358</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679945566358</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +413,9 @@
     <MESSAGE value="nettoye csv" />
     <MESSAGE value="reformate des fichers. J'ai aussi effacé le fichier TestDeInsert, car on en a plus besoin" />
     <MESSAGE value="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon" />
-    <option name="LAST_COMMIT_MESSAGE" value="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon" />
+    <MESSAGE value="fait le code csv pour fourniPiece&#10;&#10;edit les tableaux, ar il avait des erreurs de primary key" />
+    <MESSAGE value="reparer les primary keys des tableaux" />
+    <option name="LAST_COMMIT_MESSAGE" value="reparer les primary keys des tableaux" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,6 +432,6 @@
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
-    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679945353984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679947029904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
