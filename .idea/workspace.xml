@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="rajouter def import_fourniAutomobiles_from_csv">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="rajout du import_LavageAuto_from_csv()">
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_automobile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_automobile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_client.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_client.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_concessionnaire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_concessionnaire.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_employe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_employe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniAutomobiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fourniAutomobiles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fourniPieces.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursAutomobiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fournisseursAutomobiles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursPieces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fournisseursPieces.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_lavageAuto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_lavageAuto.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_piece.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_piece.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
@@ -85,11 +96,11 @@
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\Les tuples\tuples de services" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\Les tuples\tuples de fournisseur" />
+      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\Les tuples\tuples de base" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\Les tuples" />
       <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Labo6" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\TP\TP_Tableau_Et_Test" />
-      <recent name="C:\Users\lsbjo\OneDrive\Documents\GitHub\sql\All Databases\Quiz4" />
     </key>
   </component>
   <component name="RunManager" selected="Python.csv_import">
@@ -240,7 +251,7 @@
       <workItem from="1679679476166" duration="7902000" />
       <workItem from="1679780805878" duration="3029000" />
       <workItem from="1679880357317" duration="3136000" />
-      <workItem from="1679942938730" duration="4648000" />
+      <workItem from="1679942938730" duration="7755000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -375,7 +386,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679947151134</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="reparer le texte dans le fichier">
+      <created>1679947789285</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947789285</updated>
+    </task>
+    <task id="LOCAL-00021" summary="rajout du import_LavageAuto_from_csv()">
+      <created>1679947971759</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947971759</updated>
+    </task>
+    <task id="LOCAL-00022" summary="rajout du import_LavageAuto_from_csv()">
+      <created>1679947993050</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947993050</updated>
+    </task>
+    <task id="LOCAL-00023" summary="rajout du import_LavageAuto_from_csv()">
+      <created>1679948038874</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679948038874</updated>
+    </task>
+    <task id="LOCAL-00024" summary="rajout du import_LavageAuto_from_csv()">
+      <created>1679948066474</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679948066474</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +467,9 @@
     <MESSAGE value="fait le code csv pour fourniPiece&#10;&#10;edit les tableaux, ar il avait des erreurs de primary key" />
     <MESSAGE value="reparer les primary keys des tableaux" />
     <MESSAGE value="rajouter def import_fourniAutomobiles_from_csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="rajouter def import_fourniAutomobiles_from_csv" />
+    <MESSAGE value="reparer le texte dans le fichier" />
+    <MESSAGE value="rajout du import_LavageAuto_from_csv()" />
+    <option name="LAST_COMMIT_MESSAGE" value="rajout du import_LavageAuto_from_csv()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,6 +486,6 @@
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
-    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679947588313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679947922945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
