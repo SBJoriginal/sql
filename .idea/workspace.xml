@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="reformate des fichers. J'ai aussi effacé le fichier TestDeInsert, car on en a plus besoin">
-      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_lavageAuto.csv" afterDir="false" />
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e78b8c9d-2d34-49eb-9946-b3510e46d50e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/536986288_glo2005projetsession" beforeDir="false" afterPath="$PROJECT_DIR$/536986288_glo2005projetsession" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
@@ -22,6 +24,17 @@
         <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -55,7 +68,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -227,7 +241,9 @@
       <workItem from="1679592116908" duration="10320000" />
       <workItem from="1679639734897" duration="4834000" />
       <workItem from="1679679476166" duration="7902000" />
-      <workItem from="1679780805878" duration="2356000" />
+      <workItem from="1679780805878" duration="3029000" />
+      <workItem from="1679880357317" duration="3136000" />
+      <workItem from="1679942938730" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -327,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679683566806</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon">
+      <created>1679783207538</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679783207538</updated>
+    </task>
+    <task id="LOCAL-00016" summary="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon">
+      <created>1679783237895</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679783237895</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +399,8 @@
     <MESSAGE value="créer les tuples fourniPieces et fourniAutomobiles avec 100+ tuples" />
     <MESSAGE value="nettoye csv" />
     <MESSAGE value="reformate des fichers. J'ai aussi effacé le fichier TestDeInsert, car on en a plus besoin" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformate des fichers. J'ai aussi effacé le fichier TestDeInsert, car on en a plus besoin" />
+    <MESSAGE value="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon" />
+    <option name="LAST_COMMIT_MESSAGE" value="J'ai fait un attempt d'un nouveau fichier tuple LavageAuto. il était complique, mais je crois que c'est bon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,6 +417,6 @@
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
-    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679781045392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679945353984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
