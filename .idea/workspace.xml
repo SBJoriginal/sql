@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="rajout du import_LavageAuto_from_csv()">
-      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_automobile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_automobile.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_client.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_client.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_concessionnaire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_concessionnaire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_employe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_employe.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniAutomobiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fourniAutomobiles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fourniPieces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fourniPieces.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursAutomobiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fournisseursAutomobiles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_fournisseursPieces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de fournisseur/tuples_fournisseursPieces.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_lavageAuto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_lavageAuto.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples_piece.csv" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de base/tuples_piece.csv" afterDir="false" />
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="creation des dernier fichier tuples">
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/temporary" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/temporary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +240,7 @@
       <workItem from="1679679476166" duration="7902000" />
       <workItem from="1679780805878" duration="3029000" />
       <workItem from="1679880357317" duration="3136000" />
-      <workItem from="1679942938730" duration="7755000" />
+      <workItem from="1679942938730" duration="8073000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -421,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679948066474</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changer la composition des fichier tuples">
+      <created>1679952451599</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679952451599</updated>
+    </task>
+    <task id="LOCAL-00026" summary="creation des dernier fichier tuples">
+      <created>1679952570475</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679952570475</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +472,9 @@
     <MESSAGE value="rajouter def import_fourniAutomobiles_from_csv" />
     <MESSAGE value="reparer le texte dans le fichier" />
     <MESSAGE value="rajout du import_LavageAuto_from_csv()" />
-    <option name="LAST_COMMIT_MESSAGE" value="rajout du import_LavageAuto_from_csv()" />
+    <MESSAGE value="changer la composition des fichier tuples" />
+    <MESSAGE value="creation des dernier fichier tuples" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation des dernier fichier tuples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
