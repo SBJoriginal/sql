@@ -1731,12 +1731,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="458" parent="318" name="idClient">
-      <DataType>int|0s</DataType>
+    <column id="458" parent="318" name="niv">
+      <DataType>varchar(17)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="459" parent="318" name="niv">
-      <DataType>varchar(17)|0s</DataType>
+    <column id="459" parent="318" name="idClient">
+      <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
     <column id="460" parent="318" name="idEmploye">
@@ -1764,16 +1764,16 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>9</Position>
     </column>
     <foreign-key id="466" parent="318" name="reparation_ibfk_1">
-      <ColNames>idClient</ColNames>
-      <OnUpdate>cascade</OnUpdate>
-      <RefColNames>idClient</RefColNames>
-      <RefTableName>client</RefTableName>
-    </foreign-key>
-    <foreign-key id="467" parent="318" name="reparation_ibfk_2">
       <ColNames>niv</ColNames>
       <OnUpdate>cascade</OnUpdate>
       <RefColNames>niv</RefColNames>
       <RefTableName>automobile</RefTableName>
+    </foreign-key>
+    <foreign-key id="467" parent="318" name="reparation_ibfk_2">
+      <ColNames>idClient</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>idClient</RefColNames>
+      <RefTableName>client</RefTableName>
     </foreign-key>
     <foreign-key id="468" parent="318" name="reparation_ibfk_3">
       <ColNames>idEmploye</ColNames>
@@ -1792,12 +1792,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="471" parent="318" name="idClient">
-      <ColNames>idClient</ColNames>
+    <index id="471" parent="318" name="niv">
+      <ColNames>niv</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="472" parent="318" name="niv">
-      <ColNames>niv</ColNames>
+    <index id="472" parent="318" name="idClient">
+      <ColNames>idClient</ColNames>
       <Type>btree</Type>
     </index>
     <index id="473" parent="318" name="idEmploye">
