@@ -1393,7 +1393,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>6</Position>
     </column>
     <column id="384" parent="310" name="titreEmploi">
-      <DataType>enum(&apos;Laveur&apos;, &apos;Vendeur&apos;, &apos;Loueur&apos;, &apos;Mécanicien&apos;, &apos;Directeur des ventes&apos;, &apos;Directeur Marketing&apos;, &apos;Secrétaire&apos;, &apos;Concierge&apos;)|0e</DataType>
+      <DataType>varchar(30)|0s</DataType>
       <Position>7</Position>
     </column>
     <column id="385" parent="310" name="salaireAnnuel">
