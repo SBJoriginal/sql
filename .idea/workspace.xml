@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="fait import_Vente_from_csv">
+    <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="fini les changements des tableaux">
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
@@ -239,7 +239,7 @@
       <workItem from="1679679476166" duration="7902000" />
       <workItem from="1679780805878" duration="3029000" />
       <workItem from="1679880357317" duration="3136000" />
-      <workItem from="1679942938730" duration="12843000" />
+      <workItem from="1679942938730" duration="13501000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -465,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679957106217</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fait import_Location_from_csv()">
+      <created>1679957586998</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679957586998</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fini les changements des tableaux">
+      <created>1679957607754</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679957607754</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +532,9 @@
     <MESSAGE value="entrer les tuples dans le fichier" />
     <MESSAGE value="fait import_Reparation_from_csv" />
     <MESSAGE value="fait import_Vente_from_csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="fait import_Vente_from_csv" />
+    <MESSAGE value="fait import_Location_from_csv()" />
+    <MESSAGE value="fini les changements des tableaux" />
+    <option name="LAST_COMMIT_MESSAGE" value="fini les changements des tableaux" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,6 +556,6 @@
     <SUITE FILE_PATH="coverage/sql$main.coverage" NAME="main Coverage Results" MODIFIED="1679357072919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sql$server.coverage" NAME="server Coverage Results" MODIFIED="1679535545940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
     <SUITE FILE_PATH="coverage/sql$database.coverage" NAME="database Coverage Results" MODIFIED="1679362676041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/Labo6/html labo 6" />
-    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679957188742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
+    <SUITE FILE_PATH="coverage/sql$csv_import.coverage" NAME="csv_import Coverage Results" MODIFIED="1679958035993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/All Databases/TP" />
   </component>
 </project>
