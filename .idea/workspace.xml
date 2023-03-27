@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6a7d51-69b8-49de-8cb3-2bbc22fcc691" name="Changes" comment="entrer les tuples dans le fichier">
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_location.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/temporary" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/temporary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_location" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_location" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_reparation" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_reparation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_reparation" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_reparation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/Les tuples/tuples de services/tuples_vente" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/All Databases/TP/console_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/console_1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All Databases/TP/csv_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/All Databases/TP/csv_import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +246,7 @@
       <workItem from="1679679476166" duration="7902000" />
       <workItem from="1679780805878" duration="3029000" />
       <workItem from="1679880357317" duration="3136000" />
-      <workItem from="1679942938730" duration="10476000" />
+      <workItem from="1679942938730" duration="11195000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des foreigns key et une petite reorganisation du code">
       <created>1679453848306</created>
@@ -434,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679952663368</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="entrer les tuples dans le fichier">
+      <created>1679955090651</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679955090651</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
